@@ -2,7 +2,4 @@ module elastic_search_playground
 
 go 1.12
 
-require (
-	github.com/mailru/easyjson v0.0.0-20190626092158-b2ccc519800e // indirect
-	github.com/olivere/elastic/v7 v7.0.4
-)
+require github.com/elastic/go-elasticsearch/v8 v8.0.0-20190714142858-7afe9bd9f47c
